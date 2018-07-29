@@ -1,5 +1,5 @@
-Welcome to sphinx_advanced's documentation!
-===========================================
+sphinx_advanced's documentation
+===============================
 
 .. toctree::
    :maxdepth: 2
