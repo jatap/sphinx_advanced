@@ -2,6 +2,9 @@
 Credits
 =======
 
+.. literalinclude:: conf.py
+   :lines: 56-58
+
 Development Lead
 ----------------
 
