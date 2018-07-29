@@ -11,7 +11,7 @@ Example using ``doctest`` :
 
 .. doctest::
 
-   >> sphinx_advanced.help()
+   >> print(sphinx_advanced.help())
    Sphinx Advanced Tutorial Module
 
 
@@ -19,7 +19,7 @@ Example using ``testcode`` :
 
 .. testcode::
 
-   sphinx_advanced.help()
+   print(sphinx_advanced.help())
 
 
 Example using ``testoutput`` :

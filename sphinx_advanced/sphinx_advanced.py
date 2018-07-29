@@ -22,8 +22,8 @@ def help():
         A brief description of the module
 
     """
-    print('Sphinx Advanced Tutorial Module')
+    return 'Sphinx Advanced Tutorial Module'
 
 
 if __name__ == "__main__":
-    help()
+    print(help())
