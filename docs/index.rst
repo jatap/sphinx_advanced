@@ -9,6 +9,12 @@ Welcome to sphinx_advanced's documentation!
    installation
    usage
    modules
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Extra:
+
    contributing
    authors
    history
