@@ -19,6 +19,7 @@ Welcome to sphinx_advanced's documentation!
    authors
    history
 
+
 Indices and tables
 ==================
 * :ref:`genindex`

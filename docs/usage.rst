@@ -4,4 +4,6 @@ Usage
 
 To use sphinx_advanced in a project::
 
-    import sphinx_advanced
+    from sphinx_advanced import sphinx_advanced
+
+.. include:: doctest.rst
