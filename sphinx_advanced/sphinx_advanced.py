@@ -9,6 +9,9 @@
     :synopsis: sphinx advanced tutorial project
 
 .. moduleauthor:: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+
+Usage:
+    from sphinx_advanced import sphinx_advanced
 """
 
 

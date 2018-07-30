@@ -4,6 +4,14 @@ sphinx\_advanced package
 Submodules
 ----------
 
+sphinx\_advanced.calculator module
+----------------------------------
+
+.. automodule:: sphinx_advanced.calculator
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 sphinx\_advanced.sphinx\_advanced module
 ----------------------------------------
 
