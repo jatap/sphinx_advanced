@@ -1,16 +1,17 @@
-# Config file for automatic testing at travis-ci.org
-
 language: python
 python:
-  - 3.6
-  - 3.5
-  - 3.4
-  - 2.7
-
-# Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+- 3.6
+- 3.5
+- 3.4
 install: pip install -U tox-travis
-
-# Command to run tests, e.g. python setup.py test
 script: tox
-
-
+deploy:
+  provider: pypi
+  distributions: sdist bdist_wheel
+  user: jatap
+  password:
+    secure: jmvO8DktiVns9o73RZOxcJgQ1G28JihIQudWrD9eXW7QN9tDT3qNMqwq/1/9XKjeQB8QtI1ODyCYrACX3i6QtzulXu7u9iQFyxllcI+1PO+zEOjI6i6Y10QgVHKx8Ek3vFAdGLMAXFxXhQdGiYTPkqde1eqg2WKuTGLkd50PPdxlZYi1pCJogEdgadDbP+LURRiru7TdnYzHvgC9nb9ZXjsFsQJQLgw1+0xlkpi3M6CL+mD5bc/vrEDp1uZPw8b29uAFvHroArTvmmIL/Bzgx7F7qllRjEmeYe38vlaQRwfh2cwaQj/s9/ruWyF7Jens43MZaS2JiBMjWHlKsLRSx/FuJNGM0ZF+BcKrT+j+j5TfzN8fprxo61dso5WaOQZPVFZLSJlJagnI5Lmoj3EWUw6YWvb6P6mh2hzM9oRh0lq5cJCwZuRde26zKJKGKq3h8I1C7uHd23ao/sbXOW5szM86gnHrBmaEMf6FGRsXTYKo/lzM8ype/9pijwx2ayUdbjSlstgIiTk9wFNWrdlmdtekF5UvAz0AhwpqF3/Jrl7beQIUM9QtulDXYakEsikZ2gp7EiwMMYGMGs8PzKwNKlEuMl14/KVjhKT/xifIFDUuPo9TuR5jcwbvHGCuFZitEoeFt6zCoBXzM+qrMHpYLrgFHi+tzf1VadDql2jG2Wo=
+  on:
+    tags: true
+    repo: jatap/sphinx_advanced
+    python: 3.6
