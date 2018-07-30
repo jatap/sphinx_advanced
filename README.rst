@@ -14,19 +14,15 @@ sphinx_advanced
         :alt: Documentation Status
 
 
+Information
+-----------
 
+Sphinx Advanced Example
 
-Sphinx Advanced
-
-
-* Free software: MIT license
+* Free software: `MIT license`_
 * Documentation: https://sphinx-advanced.readthedocs.io.
 
-
-Features
---------
-
-.. todolist::
+.. _`MIT license`: https://github.com/jatap/sphinx_advanced/blob/master/LICENSE
 
 Credits
 -------

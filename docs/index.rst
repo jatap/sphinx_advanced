@@ -15,6 +15,7 @@ sphinx_advanced's documentation
    :maxdepth: 2
    :caption: Extra:
 
+   features
    contributing
    authors
    history

@@ -18,7 +18,7 @@ Usage:
 def help():
     """Sphinx Advanced Module help
 
-    .. todo:: Add more sample modules and some subpackage
+    .. todo:: Add some subpackage
 
     Args:
         none
