@@ -26,7 +26,7 @@ Sphinx Advanced
 Features
 --------
 
-* TODO
+.. todolist::
 
 Credits
 -------

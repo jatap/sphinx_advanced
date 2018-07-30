@@ -2,7 +2,7 @@
 
 """Main module
 
-.. warning:: Proof of Concept
+.. note:: Proof of Concept
 
 .. module:: sphinx_advanced.sphinx_advanced
     :platform: OS X
@@ -14,6 +14,8 @@
 
 def help():
     """Sphinx Advanced Module help
+
+    .. todo:: Add more sample modules and some subpackage
 
     Args:
         none
