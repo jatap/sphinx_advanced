@@ -25,5 +25,17 @@ def help():
     return 'Sphinx Advanced Tutorial Module'
 
 
-if __name__ == "__main__":
-    print(help())
+def init():
+    """Print ``help()`` when run as a script.
+
+    Args:
+        none
+
+    Retuns:
+        :func:`sphinx_advanced.sphinx_advanced.help()`
+    """
+    if __name__ == "__main__":
+        print(help())
+
+
+init()

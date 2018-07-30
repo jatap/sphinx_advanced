@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-"""Tests for `sphinx_advanced` package."""
+"""Unit Tests for `sphinx_advanced` package."""
 
 
 from sphinx_advanced import sphinx_advanced
