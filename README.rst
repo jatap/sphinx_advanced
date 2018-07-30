@@ -9,8 +9,8 @@ sphinx_advanced
 .. image:: https://img.shields.io/travis/jatap/sphinx_advanced.svg
         :target: https://travis-ci.org/jatap/sphinx_advanced
 
-.. image:: https://readthedocs.org/projects/sphinx_advanced/badge/?version=latest
-        :target: https://sphinx_advanced.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/sphinx-advanced/badge/?version=latest
+        :target: https://sphinx-advanced.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
@@ -20,7 +20,7 @@ Sphinx Advanced
 
 
 * Free software: MIT license
-* Documentation: https://sphinx_advanced.readthedocs.io.
+* Documentation: https://sphinx-advanced.readthedocs.io.
 
 
 Features
