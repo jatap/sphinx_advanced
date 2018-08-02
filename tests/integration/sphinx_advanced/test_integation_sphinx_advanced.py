@@ -8,7 +8,7 @@ from sphinx_advanced import sphinx_advanced
 
 
 def test_init(mocker):
-    """sphinx_advanced :: Integration :: sphinx_advanced :: init"""
+    """Integration :: sphinx_advanced :: init"""
 
     mocker.patch.object(sphinx_advanced, 'help')
     mocker.patch.object(sphinx_advanced, '__name__', '__main__')

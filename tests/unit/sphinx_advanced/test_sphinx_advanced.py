@@ -8,5 +8,5 @@ from sphinx_advanced import sphinx_advanced
 
 
 def test_help():
-    """sphinx_advanced :: Unit :: sphinx_advanced :: help"""
+    """Unit :: sphinx_advanced :: help"""
     assert sphinx_advanced.help() == 'Sphinx Advanced Tutorial Module'
